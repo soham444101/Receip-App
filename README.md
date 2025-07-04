@@ -67,9 +67,9 @@ npm run start
 ## Environment Variables
 Create a .env file inside Server/ with the following:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+PORT=5000***
+MONGO_URI=your_mongodb_connection_string***
+JWT_SECRET=your_jwt_secret_key***
 
 
 
