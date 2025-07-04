@@ -1,3 +1,68 @@
-Client/.gitignore
-Server/.gitignore
+# OSX
+#
+Client/.DS_Store
+
+# Xcode
+#
+Client/build/
+Client/*.pbxuser
+Client/!default.pbxuser
+Client/*.mode1v3
+Client/!default.mode1v3
+Client/*.mode2v3
+Client/!default.mode2v3
+Client/*.perspectivev3
+Client/!default.perspectivev3
+Client/xcuserdata
+Client/*.xccheckout
+Client/*.moved-aside
+Client/DerivedData
+Client/*.hmap
+Client/*.ipa
+Client/*.xcuserstate
+Client/**/.xcode.env.local
+
+# Android/IntelliJ
+#
+Client/build/
+Client/.idea
+Client/.gradle
+Client/local.properties
+Client/*.iml
+Client/*.hprof
+Client/.cxx/
+Client/*.keystore
+Client/!debug.keystore
+
+# node.js
+#
+Client/node_modules/
+Client/npm-debug.log
+Client/yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+Client/**/fastlane/report.xml
+*Client/*/fastlane/Preview.html
+Client/**/fastlane/screenshots
+Client/**/fastlane/test_output
+
+# Bundle artifact
+Client/*.jsbundle
+
+# Ruby / CocoaPods
+Client/**/Pods/
+Client//vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+Client/.metro-health-check*
+
+# testing
+Client/coverage
+
 .vscode
