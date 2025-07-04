@@ -30,67 +30,11 @@ git clone https://github.com/soham444101/Receip-App.git
 ## 📱 Client – React Native
 
 Navigate to the Client folder and install dependencies:
-
-```bash
 cd Client
 npm install
-▶️ Start on Android
-bash
-Copy
-Edit
-npm run android
-🍏 Start on iOS
-bash
-Copy
-Edit
-npm run ios
-📱 Ensure emulator or device is connected before running the commands.
+## Install Native Dependency
+npm install @react-native-async-storage/async-storage@^2.1.2 @react-native-masked-view/masked-view@^0.3.2 @react-native-picker/picker@^2.11.0 @react-navigation/native@^7.1.6 @react-navigation/native-stack@^7.3.10 @react-navigation/stack@^7.2.10 axios@^1.9.0 react@^19.1.0 react-native@^0.79.1 react-native-gesture-handler@^2.25.0 react-native-safe-area-context@^5.4.0 react-native-screens@^4.10.0 react-native-svg@^15.11.2 react-native-vector-icons@^10.2.0 --save && npm install @babel/core@^7.26.10 @babel/preset-env@^7.25.3 @babel/runtime@^7.27.0 @react-native-community/cli@^18.0.0 @react-native-community/cli-platform-android@^18.0.0 @react-native-community/cli-platform-ios@^18.0.0 @react-native/babel-preset@^0.79.1 @react-native/eslint-config@^0.79.1 @react-native/metro-config@^0.79.1 @react-native/typescript-config@^0.79.1 @types/jest@^29.5.13 @types/react@^18.3.20 @types/react-test-renderer@^18.3.1 eslint@^9.25.1 jest@^29.6.3 prettier@^3.5.3 react-test-renderer@^19.1.0 typescript@^5.8.3 --save-dev
 
-🔌 Server – Node.js Backend
-Navigate to the Server folder and install dependencies:
 
-bash
-Copy
-Edit
-cd Server
-npm install
-▶️ Start the Backend
-bash
-Copy
-Edit
-npm run start
-Make sure MongoDB is running locally or configured properly in your .env file.
 
-⚙️ Environment Variables
-Create a .env file inside Server/ with the following:
 
-ini
-Copy
-Edit
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-📦 Technologies Used
-Frontend: React Native (no Expo)
-
-Backend: Node.js + Express
-
-Database: MongoDB + Mongoose
-
-Authentication: JWT
-
-Styling: React Native Components
-
-Platform: Android & iOS
-
-📫 Contact
-Made with ❤️ by Soham Aswar
-🌐 GitHub Profile
-
-yaml
-Copy
-Edit
-
----
-
-You can now paste this directly into your `README.md` file. Let me know if you'd like to [auto-generate badges](f) or include
