@@ -22,9 +22,6 @@ Receip-App/
 ├── Server/ # Node.js + Express backend API
 └── README.md
 
-markdown
-Copy
-Edit
 
 ## Clone Link
 git clone https://github.com/soham444101/Receip-App.git
@@ -67,9 +64,11 @@ npm run start
 ## Environment Variables
 Create a .env file inside Server/ with the following:
 
-PORT=5000***
-MONGO_URI=your_mongodb_connection_string***
-JWT_SECRET=your_jwt_secret_key***
+PORT=5000
+
+MONGO_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_jwt_secret_key
 
 
 
